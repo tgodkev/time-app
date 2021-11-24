@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/css/main.e8e2c278.chunk.css",
+    "main.js": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/main.8581ab02.chunk.js",
+    "main.js.map": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/main.8581ab02.chunk.js.map",
+    "runtime-main.js": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/runtime-main.6d4ac6e0.js",
+    "runtime-main.js.map": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/runtime-main.6d4ac6e0.js.map",
+    "static/js/2.38939845.chunk.js": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/2.38939845.chunk.js",
+    "static/js/2.38939845.chunk.js.map": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/2.38939845.chunk.js.map",
+    "static/js/3.76648b4d.chunk.js": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/3.76648b4d.chunk.js",
+    "static/js/3.76648b4d.chunk.js.map": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/3.76648b4d.chunk.js.map",
+    "index.html": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/index.html",
+    "static/css/main.e8e2c278.chunk.css.map": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/css/main.e8e2c278.chunk.css.map",
+    "static/js/2.38939845.chunk.js.LICENSE.txt": "/%7Btgodkev%7D.github.io/%7Btime-app%7D/static/js/2.38939845.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d4ac6e0.js",
+    "static/js/2.38939845.chunk.js",
+    "static/css/main.e8e2c278.chunk.css",
+    "static/js/main.8581ab02.chunk.js"
+  ]
+}
