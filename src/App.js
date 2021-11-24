@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  function start(){
+    setInterval(updateTime, 1000);
+  }
+  const now = new Date().toLocaleTimeString("it-IT");
+  const [time, setTime] = useState(now);
+
+  function updateTime(){
+    const newTime = new Date().toLocaleTimeString("it-IT");
+    setTime(newTime);
+  }
+
+  return(
+    <div className="container">
+    <h1>{time}</h1>
+    <button onClick={updateTime}>Get Time</button>
+    <button onClick={start}>Start real Time</button>
+    <Footer />
     </div>
   );
+
+
+
+
+
 }
+
+
+
 
 export default App;
